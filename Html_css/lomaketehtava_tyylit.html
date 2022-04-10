@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake</title>
+    <link type="text/css" rel="stylesheet" href="../css/tyylit.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="card">
+            <legend>Contact information:</legend>
+            <table>
+                <tr>
+                    <td><label>First name:</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td><label>Preferred contact method:</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="lname">
+                    </td>
+                    <td>
+                        <input type="checkbox" id="contactemail" name="contactemail"><label
+                            for="contactemail">Email</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                    <td>
+                        <input type="checkbox" id="contacttelephone" name="contacttelephone"><label
+                            for="contacttelephone">Telephone</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Telephone:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="telephone" name="telephone">
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <fieldset class="card">
+            <legend>Feedback:</legend>
+            <table>
+                <tr>
+
+                    <td><label>Message subject:</label><input type="text" id="message" name="message"></td>
+
+
+                </tr>
+                <tr>
+
+                    <td><textarea name="message" rows="10" cols="40">
+                </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Attach a file: <input type="file" id="file" value="Choose file"> </td>
+                <tr>
+                    <td><input id="SendButton" type="submit" value="Send"></td>
+                </tr>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+
+
+
+</html>
