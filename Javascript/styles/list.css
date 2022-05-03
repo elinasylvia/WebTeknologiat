@@ -1,0 +1,25 @@
+body {
+    /* max-width: 1000px; */
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.list-container {
+    display: block;
+}
